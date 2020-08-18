@@ -34,18 +34,20 @@ header nav .menu {
 
 header nav ul.menu li a{
 text-transform: uppercase;
-text-decoration: none;
+font-family: 'lobster', sans-serif';
 border: 1px solid transparent;
 padding: 5px;
+color: #000000;
+background-color: transparent;
 }
 
 * {
-    background: url(https://image.cookly.me/images/the-art-of-baking-macarons-in-rome.jpeg);
+    background: rgb(248, 248, 211);
 }
 
 
 .elem {
-    border: solid lightgreen 4px;
+    border: solid wheat 4px;
     position: relative;
     
 }
@@ -64,9 +66,47 @@ header .banner {
     justify-content: center;
     flex-direction: column;
     font-size: 1.5rem;
+    max-width: 600px;
+  margin: auto;
 }
 
-main h2 {
-    text-align: center;
-    font-size: 2rem;
+h2 {
+   text-align: center; 
 }
+
+.news img {
+    display: block;
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .newspaper {
+        display: grid;
+        grid-gap: 8px;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media (min-width: 960px) {
+    .newspaper {
+        display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}
+
+footer h4 {
+    font-family: 'Lobster';
+    font-size: 2rem;
+    text-align: center;
+}
+
+footer form {
+      max-width: 800px;
+  margin: auto;
+}
+
+footer div {
+      max-width: 900px;
+  margin: auto;
+}
+
