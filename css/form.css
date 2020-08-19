@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fjalla+One&family=Lobster&display=swap');
+
+h1 {
+    font-family: 'Lobster', 'sans-serif';
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+* {
+    background: rgb(248, 248, 211);
+}
+
+p {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.elem {
+    border: solid wheat 4px;
+    position: relative;
+}
+
+header nav .logo {
+    font-family: 'Lobster', sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
+
+header nav ul li a {
+    font-family: 'Fjalla One, sans-serif';
+    
+}
+
+nav p {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+header nav .menu {
+    display:flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style-type: none;
+}
+
+header nav ul.menu li a{
+text-transform: uppercase;
+font-family: 'lobster', 'sans-serif';
+border: 1px solid transparent;
+padding: 5px;
+color: #000000;
+background-color: transparent;
+}
+
+header nav button {
+font-family: 'Fjalla One', 'sans-serif';
+font-size: 1rem;
+  color: wheat; 
+  text-decoration-color: black;
+  user-select: none;
+  background:none; 
+  padding: 0.5em 1em; 
+  outline: none; 
+}
+
+header nav button:active { 
+    background: wheat; 
+    } 

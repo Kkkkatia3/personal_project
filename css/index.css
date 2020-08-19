@@ -12,9 +12,19 @@ header nav .logo {
     text-align: center;
 }
 
-header nav .button {
+header nav div button {
 font-family: 'Fjalla One, sans-serif';
+font-size: 1.0rem;
+  color: wheat; 
+  text-decoration: none;
+  user-select: none;
+  background:none; 
+  padding: 0.5em 1em; 
+  outline: none; 
 }
+
+header nav div button:active { background: wheat; } 
+
 header nav ul li a {
     font-family: 'Fjalla One, sans-serif';
     
@@ -34,7 +44,7 @@ header nav .menu {
 
 header nav ul.menu li a{
 text-transform: uppercase;
-font-family: 'lobster', sans-serif';
+font-family: 'lobster', 'sans-serif';
 border: 1px solid transparent;
 padding: 5px;
 color: #000000;
@@ -48,8 +58,8 @@ background-color: transparent;
 
 .elem {
     border: solid wheat 4px;
+    background-color: wheat;
     position: relative;
-    
 }
 
 body {
